@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_menu"
+        android:title="搜索是设备"
+        apps:showAsAction="always"/>
+
+    <!--启动关于界面的菜单项-->
+    <item android:id="@+id/about_menu"
+        android:title="关于"
+        apps:showAsAction="never"/>
+
+</menu>
